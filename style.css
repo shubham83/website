@@ -1,0 +1,659 @@
+*
+		{
+			margin: 0;
+			padding: 0;
+			}
+		body
+		{
+			background-color: #0f1110;
+		}
+		img
+		{
+			background-size: cover;
+		}
+		.head
+		{
+			height: 100px; 
+			width: 100%;
+			background-color:#0f1110;
+
+		}
+		.textbox
+		{
+			float: left;
+			margin-top:30px;
+			margin-left:100px; 
+			margin-right: 180px;
+			height: 35px;
+			width: 250px;
+			border-radius: 5px;
+		}
+		.logo
+		{
+			margin-top: 10px;
+		}
+
+		.cart
+		{
+			float: right;
+			margin-right: 10px;
+		}
+		.nav{
+		width: 100%;
+		height: 60px;
+		background-color:#0f1110;
+		color: white;
+		text-transform: uppercase;
+		position: relative;
+		padding: 3px;
+		font-size: 20px;
+		margin-left: 200px;
+		}
+		ul
+		{
+			float: left;
+			position: inherit;
+			list-style-type: none;
+			font-family:Copperplate Gothic;
+		}
+		
+		ul li
+		{
+			float: left;
+			height: 60px;
+			width: 200px;
+			line-height: 60px;
+			display: block;
+			text-align: center;
+		}
+		ul li:hover
+		{
+			color:#ffd261;
+			transition: 1s all ease;
+		}
+		
+		ul li ul li
+	{
+		display: none;
+		background-color: black;
+		font-size: 13px;
+		color: white;
+		opacity: 0.9;
+	}
+	ul li:hover ul li 
+	{
+
+	display:block;	
+		
+		
+	}
+	ul li ul li:hover
+	{
+		background-color: yellow;
+		color: black;
+		opacity: 0.6;
+	}
+	.bluestrip
+	{
+		height: 110px;
+		width: 100%;
+		background-color: #39b6c1;
+		
+	}
+
+	.img1
+	{
+		margin-top:15px; 
+		margin-left: 100px;
+		
+
+	}
+	.img1:hover
+	{
+		height: 90px;
+		width: 230px;}
+	.img2
+	{
+		margin-top:15px; 
+		margin-left: 30px;
+	
+	}
+	.img2:hover
+	{
+		height: 90px;
+		width: 250px;}
+	.img3
+	{
+		margin-top:15px; 
+		margin-left: 30px;
+	
+	}
+	.img3:hover
+	{
+		height: 90px;
+		width: 250px;}
+	.img4
+	{
+		margin-top:15px; 
+		margin-left: 30px;
+	}
+	.img4:hover
+	{
+		height: 90px;
+		width: 250px;}
+		.ride
+		{
+			
+			height: 100px;
+			width: 100%;
+			color: black;
+			background-color:white;
+		
+		}
+		.ridesub1 h2
+		{
+			width: 340px;
+			color: black;
+			margin-left: 510px;
+			padding-top: 30px;
+			text-align: center;
+			font-size:25px;
+			border-bottom: 1.5px solid #3eb4c0;
+			font-family: oswald;
+			text-transform: uppercase;
+		
+   
+		}
+		.ridesub2
+		{
+			color: black;
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 18px;
+			margin-top: 10px;
+		
+		}
+		#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	25% {
+		left: 0%;
+	}
+	
+	50% {
+		left: -100%;
+	}
+	70% {
+		left: -100%;
+	}
+	75% {
+		left: -200%;
+	}
+	95% {
+		left: -200%;
+	}
+	100% {
+		left: -200%;
+	}
+}
+	.box
+	{
+		height: 450px;
+		width: auto;
+	}
+	.pbox1
+	{
+		height: 450px;
+		width: 450px;
+		background-image: url('imeges/cleaning kit.jpg');
+		background-size: cover;
+	}
+	.pbox1:hover,.shop1:hover
+	{ 
+
+		background-color: black;
+		color: white;
+		transition: 1s all ease;
+		background-size: 480px;
+	}.pbox2:hover,.shop2:hover
+	{ 
+
+		background-color: black;
+		color: white;
+		transition: 1s all ease;
+		background-size: 320px;
+	}.pbox3:hover,.shop3:hover
+	{ 
+
+		background-color: black;
+		color: white;
+		transition: 1s all ease;
+		background-size: 650px;
+	}.pbox4:hover,.shop4:hover
+	{ 
+
+		background-color: black;
+		color: white;
+		transition: 1s all ease;
+		background-size: 950px;
+	}
+	.pbox2
+	{	height: 250px;
+		width: 300px;
+		background-image: url('imeges/trending.jpg');
+		background-size: cover;
+		position: relative;
+		top: -450px;
+		left: 450px;
+	}
+	.pbox3
+	{
+		height: 250px;
+		width: 600px;
+		background-image: url('imeges/CUSTOM BIKES.jpg');
+		background-size: cover;
+		position: relative;
+		top: -700px;
+		left: 750px;
+
+	}
+	.pbox4
+	{	
+		height: 200px;
+		width: 900px;
+		background-image: url('imeges/riding gears 2.jpg');
+		background-size: cover;
+		position: relative;
+		top: -700px;
+		left: 450px;
+	}
+	.shop1
+	{
+		height: 50px;
+		width: 150px;
+		text-align: center;
+		font-size: 20px;
+		font-family: Britannic;
+		background-color:#ffd261;
+		color: black;
+		line-height: 50px;
+		position: relative;
+		top: 160px;
+		left: 150px;
+	}
+	.shop2
+	{
+		height: 50px;
+		width: 150px;
+		text-align: center;
+		font-size: 20px;
+		font-family: Britannic;
+		background-color:#ffd261;
+		color: black;
+		line-height: 50px;
+		position: relative;
+		top: 80px;
+		left: 80px;
+	}
+	.shop3
+	{
+		height: 45px;
+		width: 200px;
+		text-align: center;
+		font-size: 20px;
+		font-family: Britannic;
+		background-color:#ffd261;
+		color: black;
+		line-height: 45px;
+		position: relative;
+		top: 120px;
+		left: 200px;
+	}
+	.shop4
+	{
+		height: 45px;
+		width: 200px;
+		text-align: center;
+		font-size: 20px;
+		font-family: Britannic;
+		background-color:#ffd261;
+		color: black;
+		line-height: 45px;
+		position: relative;
+		top: 100px;
+		left: 410px;
+	}
+	.teg2
+		{
+			height: auto;
+			width: 100%;
+			color: black;
+			background-color:white;
+			
+		}
+	#subteg2 h2
+		{
+			width: 340px;
+			color: black;
+			margin-left: 510px;
+			padding-top: 30px;
+			text-align: center;
+			font-size:22px;
+			border-bottom: 1.5px solid #3eb4c0;
+			font-family: oswald;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+   
+		}
+		#subteg3
+		{
+			color: black;
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 18px;
+			margin-top: 10px;
+
+		
+		}
+		.acc
+		{
+			height: 500px;
+			width: 100%;
+			background-color: white;
+			text-transform: uppercase;
+			font-size: 19px;
+			font-weight: bold;
+		}
+		.check
+		{	
+			position:relative;
+			top: 10px;
+			left: 400px;
+			list-style-type: none;
+		}
+		.check1,.check2
+		{
+			height: 70px;
+			width: 215px;
+			line-height: 70px;
+			display: block;
+			text-align: center;
+
+		}
+		.check1:hover,.check2:hover
+		{
+			background: black;
+			color: white;
+			border:0.5px solid gray;
+			transition: 1s all ease;
+		}
+		.check1
+		{
+			background-color: #ffd262;
+		}
+		.check2
+		{
+			background-color: #fff567;
+		}
+		.photobox
+		{
+			height: 435px;
+			width: 400px;
+			position:relative;
+			top: -250px;
+			left: 650px;
+			background-image:url('imeges/photobox1.png');
+			
+		}
+	
+		#teg3
+		{
+			background-color: white;
+		}
+	.img
+	{
+		width: auto;
+		height: 350px;
+		overflow: hidden;
+		margin-top: 50px;
+		margin-left: 100px;
+
+	}
+	.teg4
+	{
+		background-color: white;
+		height: 50px;
+	}
+	#subteg4 h2
+	{
+			width: 100px;
+			color: black;
+			margin-left: 610px;
+			padding-top: 10px;
+			text-align: center;
+			font-size:25px;
+			border-bottom: 1.5px solid #3eb4c0;
+			font-family: oswald;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+	}
+	.blog
+	{
+		height: 450px;
+		background-color: white;
+		padding: 30px;
+		font-size: 12px;
+		font-family:cooper_hewittbook;
+	}
+	.art1
+	{
+		height: 380px;
+		width: 350px;
+		border:1px solid #f1f1f1;
+		position: relative;
+		margin:0px;
+		left: 50px;
+		bottom: 2px;
+		
+	}
+	#iart1
+	{
+		width: 350px;
+		height: 180px; 
+		margin:px;
+		background-image: url('imeges/art1.jpg');
+		background-size: cover;
+	}
+	#tart1
+	{
+		margin-top: 15px;
+		margin-left: 15px;
+		height: 150px;
+		width: 332px;
+		font-size: 15px;
+	}
+	.art2
+	{
+		height: 380px;
+		width: 350px;
+		position: relative;
+		border:1px solid #f1f1f1;
+		top: -390px;
+		left: 450px;
+		bottom: 0px;
+	}
+	
+	#iart2
+	{
+		width: 350px;
+		height: 180px; 
+		margin:0px;
+		background-image: url('imeges/art2.jpg');
+		background-size: cover;
+	}
+	.art3
+	{
+		height: 380px;
+		width: 350px;
+		position: relative;
+		border:1px solid #f1f1f1;
+		top: -770px;
+		left: 850px;
+		bottom: 0px;
+	}
+	#iart3	{
+		width: 350px;
+		height: 180px; 
+		margin:0px;
+		background-image:url('imeges/art3.jpg');
+		background-size: cover;
+	}
+	#tart1 a
+	{
+		color: #39b6c1;
+		text-decoration: none;
+		position: relative;
+		left: 250px;
+		font-size: 20px;
+		
+
+		
+	}
+	#tart1 a:hover
+	{
+		text-decoration: underline;
+		color: black;
+	}
+	#tart1 h3 a
+	{
+		color: black;
+		position: relative;
+		left: 0px;
+	}
+	#subteg5 h2
+	{
+			width: 150px;
+			height: 35px;
+			color: black;
+			margin-left: 590px;
+			padding-top: 10px;
+			text-align: center;
+			font-size:22px;
+			border-bottom: 1.5px solid #3eb4c0;
+			font-family: oswald;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+	}
+	.slider1 {
+	overflow: hidden;
+	background-color: white;
+	
+}
+.slider figure {
+	position: relative;
+	height: 150px;
+	width: 500%;
+	height: 50px;
+	margin: 0;
+	left: 0;
+	animation: 20s sliders infinite;
+}
+
+.cust
+{
+	height: 500px;
+	width: auto;
+	background-color:#333;
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: oswald;
+}
+.imbox
+	{
+		
+		width: 100%;
+	}
+	.pagesign
+	{
+		padding: 20px;
+		padding-left:100px;
+		font-size: 22px; 
+		background-color: #39b6c1;
+		color: #fff;
+
+	}
+	.pagesign .footerem
+	{
+		height: 40px;
+		position: relative;
+		left: 200px;
+		padding-right: 50px; 
+		border-radius: 20px 0px 0px 20px;
+		border:1px solid #39b6c1;
+	}
+	.btnfoot
+	{	
+		height: 40px;
+		width: 150px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 15px;
+		font-family: Bahnschrift;
+		position: relative;
+		top:-5px;
+		right: -200px;
+		background-color: #ffd261;
+		border-radius: 0px 20px 20px 0px;
+		border:1px solid #39b6c1;
+	}
+	.btnfoot:hover
+	{
+		background-color: black;
+		color: white;
+	}
+	.abt
+	{
+		height: 350px;
+		width: 100%;
+		background-color:#333;
+		color: white;
+		padding: 100px;
+	}
+	.content
+	{
+		padding: 
+	}
+	.content2
+	{
+		text-align: left;
+		position: relative;
+		top: -200px;
+		left: 450px;
+	}
+	.content3
+	{
+		text-align: left;
+		position: relative;
+		top: -380px;
+		left: 800px;
+	}
